@@ -1,0 +1,7 @@
+from google_play_scraper import app
+
+#fetch app details replace URL 
+result = app('com.nianticlabs.pokemongo')
+lang = 'en'
+country = 'us' #print the result
+print(result)
